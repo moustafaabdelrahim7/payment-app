@@ -1,0 +1,93 @@
+tester name:-moustafa abdelrahim khalifa
+function name:-getCardHolderName
+
+/**************************************/
+test case 1:
+input data:- null
+expexted result:- invalid name
+actual result:- invalid name
+
+
+test case 2:
+input data:- m
+expexted result:- invalid name
+actual result:- invalid name
+
+
+test case 3:
+input data:- moustafa abdelrahim khalifa
+expexted result:- invalid name
+actual result:- invalid name
+
+
+test case 4:
+input data:- moustafa abdelrahim kha
+expexted result:- pass and go to the next caller
+actual result:- passed
+
+
+/***************************************/
+
+function name:-getExpiryDate
+
+/**************************************/
+test case 1:
+input data:- null
+expexted result:- invalid expiray date
+actual result:- invalid expiray date
+
+
+test case 2:
+input data:- 05
+expexted result:- invalid expiray date
+actual result:- invalid expiray date
+
+test case 3:
+input data:- 05/2023
+expexted result:- invalid expiray date
+actual result:- invalid expiray date
+
+test case 4:
+input data:- 05\25
+expexted result:- invalid expiray date
+actual result:- invalid expiray date
+
+test case 4:
+input data:- 05/25
+expexted result:- pass and go to the next caller 
+actual result:- pass
+
+
+/***************************************/
+
+function name:-getPANTest
+
+/**************************************/
+test case 1:
+input data:- null
+expexted result:- invalid PAN
+actual result:- invalid PAN
+
+
+test case 2:
+input data:- 0
+expexted result:- invalid PAN
+actual result:- invalid PAN
+
+test case 3:
+input data:- 123456789123456
+expexted result:- invalid PAN
+actual result:- invalid PAN
+
+test case 4:
+input data:- 12345678912345678912
+expexted result:- invalid PAN
+actual result:- invalid PAN
+
+test case 4:
+input data:- 123456789123456789
+expexted result:- pass and go to the next caller 
+actual result:- pass
+
+
+/***************************************/

@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1680219974 source:c:\kareem\my data\courses\sprints\projects\payment application\payment application\application\application.c
+
+1680214793 source:c:\kareem\my data\courses\sprints\projects\payment application\payment application\card\card.c
+	"Card.h"
+
+1680214818 c:\kareem\my data\courses\sprints\projects\payment application\payment application\card\card.h
+	<stdio.h>
+	<string.h>
+	<conio.h>
+
+1680218380 source:c:\kareem\my data\courses\sprints\projects\payment application\payment application\server\server_main\main.c
+
+1680213386 source:c:\kareem\my data\courses\sprints\projects\payment application\payment application\server\server_main\server.c
+	"database.h"
+
+1680211520 c:\kareem\my data\courses\sprints\projects\payment application\payment application\server\server_main\database.h
+	"Server.h"
+
+1680212930 c:\kareem\my data\courses\sprints\projects\payment application\payment application\server\server_main\server.h
+	<stdio.h>
+	<stdlib.h>
+
+1680189397 source:c:\kareem\my data\courses\sprints\projects\payment application\payment application\terminal\terminal.c
+
+1680213386 source:c:\kareem\my data\courses\sprints\projects\payment application\payment application\server\server.c
+	"database.h"
+
+1680219705 c:\kareem\my data\courses\sprints\projects\payment application\payment application\server\database.h
+	"Server.h"
+
+1680219686 c:\kareem\my data\courses\sprints\projects\payment application\payment application\server\server.h
+	<stdio.h>
+	<stdlib.h>
+	"../Card/Card.h"
+	"../Terminal/Terminal.h"
+
+1680189397 c:\kareem\my data\courses\sprints\projects\payment application\payment application\terminal\terminal.h
+
+1680296987 source:c:\kareem\my data\courses\sprints\projects\payment application\application\application.c
+	"../Card/Card.h"
+	"../Terminal/Terminal.h"
+
+1680214793 source:c:\kareem\my data\courses\sprints\projects\payment application\card\card.c
+	"Card.h"
+
+1680214818 c:\kareem\my data\courses\sprints\projects\payment application\card\card.h
+	<stdio.h>
+	<string.h>
+	<conio.h>
+
+1680298171 source:c:\kareem\my data\courses\sprints\projects\payment application\server\server.c
+	"database.h"
+
+1680291702 c:\kareem\my data\courses\sprints\projects\payment application\server\database.h
+	"Server.h"
+
+1680220251 c:\kareem\my data\courses\sprints\projects\payment application\server\server.h
+	<stdio.h>
+	<stdlib.h>
+	"../Card/Card.h"
+	"../Terminal/Terminal.h"
+
+1680220241 c:\kareem\my data\courses\sprints\projects\payment application\terminal\terminal.h
+
+1680189397 source:c:\kareem\my data\courses\sprints\projects\payment application\terminal\terminal.c
+
